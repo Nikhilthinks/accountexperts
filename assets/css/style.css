@@ -1358,6 +1358,8 @@ section {
   line-height: 1;
 }
 
+
+
 .contact .info p {
   padding: 0 0 10px 42px;
   line-height: 28px;
@@ -1612,4 +1614,50 @@ section {
 
 .serviceClass {
   height: fit-content;
+}
+
+
+@media (max-width: 965px){
+  .section-title h2{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .section-title h2 span{
+    text-align: center;
+  }
+
+  .section-title h2::before, .section-title h2::after {
+    width: 10px;
+  }
+}
+
+@media (max-width: 444px){
+  .section-title h2::before, .section-title h2::after {
+    display: none;
+  }
+}
+
+@media (max-width: 965px){
+  .studentServiceTitle h2{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 620px;
+  }
+
+  .studentServiceTitle h2 span{
+    text-align: center;
+  }
+
+  .studentServiceTitle h2::before, .studentServiceTitle h2::after {
+    width: 10px;
+  }
+}
+
+@media (max-width: 444px){
+  .studentServiceTitle h2::before, .studentServiceTitle h2::after {
+    display: none;
+  }
 }
